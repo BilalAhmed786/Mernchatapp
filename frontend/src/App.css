@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+.home{
+  display:flex;
+  background-color:lightgray;
+  align-items:center;
+  justify-content:center;
+  font-size:15px;
+  font-family: 'Inter', sans-serif;
+  color:black
+}
+
+.container{
+
+  display:flex;
+  border:1px solid #d1d0d0;
+  border-radius:10px;
+  width:100%;
+ 
+
+}
+
+.sidebar{
+flex:1;
+border-right:1px solid #d1d0d0;
+background:#fff
+
+}
+.individual{
+flex:2;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  height: 52px;
+  padding: 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid #d1d0d0;
+  padding: 29px;
+}
+
+
+  .logo {
+ 
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+
+.user{
+  display:flex;
+  gap:12px;
+  
+
+}
+
+.user span {
+  margin-top: 10px;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: medium;
+}
+.userchat img{
+  background-color:white;
+  height:30px;
+  width:30px;
+  border-radius:50%;
+  object-fit:cover
+}
+
+.user img{
+  height:35px;
+  width:35px;
+  border-radius:50%;
+  object-fit:cover
+}
+
+.searchform{
+  padding:25px
+}
+
+.searchform input{
+  width:100%;
+  border-bottom:1px solid #d1d0d0;
+  background:transparent;
+  outline:none
+
+}
+
+.searchform input::placeholder{
+  color:black
+}
+
+.userchat {
+  display: flex;
+  position: relative;
+  gap: 10px;
+  padding: 14px;
+  cursor: pointer;
+  background: #fff;
+  margin: 6px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.userchat span {
+  font-style: bold;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.userchat p {
+  font-size: 10px;
+  }
+
+.userchat:hover{
+ 
+  background:#eeeeee
+}
+
+
+.chatInfo {
+  display: block;
+  background: #ffffff;
+  color: black;
+  height: 58.5px;
+  padding: 15px;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 15px;
+  border-bottom: 1px solid #d1d0d0;
+}
+.contactwraper {
+  display: block;
+  height: 57vh;
+  overflow-y: auto;
+  font-family: 'Inter';
+}
+.green-light-icon{
+    color: green;
+    font-size: 8px;
+    position: absolute;
+    left: 37px;
+    top: 17px;
+}
+
+span.receivenotify {
+  display: block;
+  position: absolute;
+  right: 13px;
+  top:7px;
+  background: #000;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 11px;
+  color: white;
+}
+.inputform {
+  display: flex;
+  position:absolute;
+  width:100%;
+  background: #ffffff;
+  padding: 12px;
+  justify-content: space-between;
+  
+}
+.inputcontainer{
+  position:relative;
+  background:white
+}
+.inputform input {
+  width: 240%;
+  height:35px;
+  padding-left:50px;
+  outline:none
+}
+.inputform .btnsubmit {
+  background: red;
+  color: white;
+  font-weight: 900px;
+  font-style: sans-sarif;
+  margin-right: 45px;
+  padding: 5px 10px 5px 10px;
+  font-family: monospace;
+  font-weight: 700;
+
+}
+
+.messagescontainer {
+  display: block;
+  padding: 22px;
+  height: 80vh;
+  width:100%;
+  overflow:auto;
+  background: #ffffff;
+}
+
+
+.messagescontainer::-webkit-scrollbar,
+.contactwraper::-webkit-scrollbar
+{
+  
+  width:2px;
+ 
+}
+.messagescontainer::-webkit-scrollbar-track,
+.contactwraper::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+ 
+}
+.messagescontainer::-webkit-scrollbar-thumb,
+.contactwraper::-webkit-scrollbar-thumb {
+  background-color: #888; /* Thumb color */
+  border-radius: 5px; 
+ 
+}
+
+.Loginusermessages {
+  display:block;
+  background: #f3f3f3;
+  padding: 25px;
+  margin: 13px;
+  width: 45%;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius:10%;
+  border-bottom-left-radius:10%;
+}
+
+.chatusermessages {
+  display: block;
+  margin-top: 15px;
+  background: #f3f3f3;
+  padding: 25px;
+  margin-left: 50%;
+  width: 45%;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius:10%;
+  border-bottom-left-radius:10%;
+}
+
+
+
+.emojiwraper {
+  display: block;
+  position: absolute;
+  left:1;
+  top: -645%;
+}
